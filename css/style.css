@@ -9,9 +9,12 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1260px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 img {
@@ -40,6 +43,14 @@ a {
   text-decoration: none;
 }
 
+.bgswitcher {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 .header {
   width: 100%;
   height: 750px;
@@ -60,6 +71,13 @@ a {
   right: 0;
   z-index: 1;
   transition: .5s;
+  width: 100%;
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .header-logo {
@@ -108,7 +126,7 @@ a {
   background-color: #282f35;
   padding: 30px 120px;
   top: 0;
-  width: 100%;
+  max-width: 100%;
   transition: .5s;
 }
 
@@ -158,9 +176,11 @@ a {
 }
 
 .concept .inner {
-  max-width: 1100px;
+  max-width: 1160px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .concept .section-ttl {
@@ -211,9 +231,11 @@ a {
 }
 
 .works .inner {
-  max-width: 1000px;
+  max-width: 1060px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .works-box {
@@ -291,6 +313,8 @@ a {
   background-repeat: no-repeat;
   padding-top: 110px;
   padding-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .contact .section-ttl {
